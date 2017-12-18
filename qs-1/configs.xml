@@ -1,5 +1,6 @@
 <configuration activeAssembly='DEFAULT'>
  <storeType name='CertStore'>
+<!--banch -->
   <branch>
    <node>/[Certificates]name=Certificate Store</node>
   </branch>
