@@ -1766,6 +1766,19 @@
 	<fval name="timeToIdleSeconds"><value>0</value></fval>
 	<fval name="timeToLiveSeconds"><value>0</value></fval>
 </entity>
+<entity xmlns="http://www.vordel.com/2005/06/24/entityStore"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="Cache" entityPK="4548116083619059702" parentPK="-3231540937583740537">
+	<fval name="diskExpiryThreadIntervalSeconds"><value>120</value></fval>
+	<fval name="diskPersistent"><value>0</value></fval>
+	<fval name="diskSpoolBufferSizeMB"><value>30</value></fval>
+	<fval name="eternal"><value>0</value></fval>
+	<fval name="maxElementsInMemory"><value>1000</value></fval>
+	<fval name="maxElementsOnDisk"><value>1000</value></fval>
+	<fval name="memoryStoreEvictionPolicy"><value>LRU</value></fval>
+	<fval name="name"><value>Qs</value></fval>
+	<fval name="overflowToDisk"><value>1</value></fval>
+	<fval name="timeToIdleSeconds"><value>0</value></fval>
+	<fval name="timeToLiveSeconds"><value>20</value></fval>
+</entity>
 <entity xmlns="http://www.vordel.com/2005/06/24/entityStore"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="Cache" entityPK="6543289657015251964" parentPK="-3231540937583740537">
 	<fval name="diskExpiryThreadIntervalSeconds"><value>120</value></fval>
 	<fval name="diskPersistent"><value>0</value></fval>
@@ -1834,10 +1847,10 @@
 	<fval name="keySpace"><value>x${DOMAINID}_${GROUPID}</value></fval>
 	<fval name="keySpaceReplicationFactor"><value>1</value></fval>
 	<fval name="name"><value>Cassandra Settings</value></fval>
-	<fval name="password"><value></value></fval>
+	<fval name="password"><value>Y2Fzc2FuZHJh</value></fval>
 	<fval name="sslProtocolOptionsMask"><value>1</value></fval>
 	<fval name="useSSL"><value>false</value></fval>
-	<fval name="username"><value></value></fval>
+	<fval name="username"><value>cassandra</value></fval>
 </entity>
 <entity xmlns="http://www.vordel.com/2005/06/24/entityStore"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="CassandraServer" entityPK="2957377850502550395" parentPK="-700323244261543582">
 	<fval name="host"><value>localhost</value></fval>
